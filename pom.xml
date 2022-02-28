@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.liker.cloud</groupId>
+        <artifactId>dependencies</artifactId>
+        <version>1.0-RELEASE</version>
+    </parent>
+
+    <packaging>pom</packaging>
+
+    <artifactId>platform</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>platform</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>eureka</module>
+        <module>gateway</module>
+        <module>start</module>
+        <module>auth</module>
+    </modules>
+
+    <dependencies>
+
+    </dependencies>
+</project>
