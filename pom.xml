@@ -22,11 +22,21 @@
     <modules>
         <module>eureka</module>
         <module>gateway</module>
-        <module>start</module>
         <module>auth</module>
+        <module>start</module>
     </modules>
 
     <dependencies>
 
     </dependencies>
+
+    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.liker.cloud</groupId>
+            <artifactId>web-start</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    </dependencyManagement>
 </project>
